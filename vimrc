@@ -169,5 +169,7 @@ imap  ttt <{}><ESC>hi
 " 竖向标示
 " set cursorcolumn
 
+" hehe
+
 
 
