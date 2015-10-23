@@ -7,13 +7,13 @@ set nobomb
 
 language message zh_CN.UTF-8
 
-
-
-
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+
+" 换行不再注释
+set paste
 
 set diffexpr=MyDiff()
 function MyDiff()
