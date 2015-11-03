@@ -88,7 +88,8 @@ set cindent
 set nocompatible
 set bs=2
 
+" 语法高亮
+syntax enable
 
-" 换行不再注释
+" 换行不注释
 set paste
-
