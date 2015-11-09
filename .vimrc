@@ -82,6 +82,7 @@ map vv <ESC>:w<cr>
 set expandtab
 set shiftwidth=4
 set tabstop=4
+
 "自动缩进
 set cindent
 
