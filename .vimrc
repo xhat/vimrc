@@ -17,8 +17,6 @@ imap <C-l> <ESC>la
 
 set ambiwidth=double
 
-"set so=6
-
 " 状态栏格式定义
 set laststatus=2
 
@@ -28,9 +26,10 @@ set laststatus=2
 set nu
 " 搜索不区分大小写，但键入了大写则自动区分大小写
 set ignorecase smartcase
-"quit
+
 noremap qq <ESC>:q!<CR>
 noremap tsq <ESC>:wq<CR>
+
 " 空格键向上滚屏 光标不变
 nnoremap <SPACE> 2<C-e>
 noremap <C-j> 3<C-e>
@@ -49,9 +48,8 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
-"自动缩进
+" 自动缩进
 set cindent
-
 set nocompatible
 set bs=2
 
