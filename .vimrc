@@ -58,3 +58,12 @@ syntax enable
 
 " 换行不注释
 set paste
+
+" 不备份
+set nobackup
+
+" 搜索高亮
+set hls
+
+" 不产生swp文件
+set noswapfile
